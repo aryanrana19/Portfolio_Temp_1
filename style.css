@@ -5,8 +5,103 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #403F3D;
 }
 
+/* LANDING SECTION */
+
+.landing-section{
+    /* background: url(https://img.freepik.com/free-vector/prickly-juniper-branch-beige-gray-minimal-background_53876-113047.jpg?w=1380&t=st=1708437376~exp=1708437976~hmac=e8624c4155b7c473466cb1f67850adbce0564904d989fcd285ed2074b10c863e); */
+    background-color: #ececec;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-content{
+    margin-top: 15%;
+    margin-left: 8%;
+    width: 50%;
+}
+
+.landing-content h1,h3,p,button{
+    margin-bottom: 15px;
+}
+
+.landing-content h1{
+    font-size: 48px;
+}
+
+.landing-content h3{
+    font-size: 30px;
+}
+
+.landing-content p{
+    font-size: large;
+}
+
+.landing-content span{
+    color: #401519;
+}
+
+.landing-content button{
+    padding: 15px 20px;
+    font-size: larger;
+    background-color: #403F3D;
+    color: #ececec;
+    border-radius: 10px;
+    border: none;
+    transition: ease-in 0.2s;
+}
+
+.landing-content button:hover{
+    background-color: #ececec;
+    color: #403F3D;
+    border: 1px solid #403F3D;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #403F3D;
+    transition: ease-in 0.2s;
+}
+
+/* LANDING NAVBAR */
+
 .main-navbar{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    height: 40px;
+    backdrop-filter: blur(10px);
+}
+
+.nav-menu{
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+/* LANDING IMAGE */
+
+.image-bg-obj img{
+    position: absolute;
+    right: 11%;
+    top: 20%;
+}
+
+.portfolio-img img{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    transition: ease-out 0.2s;
+}
+
+.portfolio-img img:hover{
+    scale: 1.1;
+    transition: ease-in 0.3s;
 }
